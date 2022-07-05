@@ -19,6 +19,12 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.setup.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "jest.setup.js",
+    "__tests__/__mocks__/msw/handlers.js"
+  ],
   "exclude": ["node_modules"]
 }
